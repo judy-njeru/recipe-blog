@@ -1,0 +1,137 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.text_area {
+  width: 80%;
+  margin-left: 30px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+.form_width {
+  width: 80%;
+  margin-left: 30px;
+}
+
+
+#exampleInputFile {
+  margin-left: 30px;
+}
+
+.custom-file-upload {
+  border: 1px solid #d3394c;
+  display: inline-block;
+  cursor: pointer;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.custom-file-upload:hover{
+  border-color: #722040;
+}
+
+#ingredients {
+  margin-top: 20px;
+}
+
+input[type="file"] {
+  display: block;
+  clear: both;
+  margin-left: 29px;
+}
+
+label.myLabel input[type="file"] {
+  position: fixed;
+  top: -1000px;
+}
+
+/***** Example custom styling *****/
+.myLabel {
+  margin-top: 20px;
+  float: left;
+  margin-left: 30px;
+  border: 2px solid #723f5f;
+  padding: 0.625rem 1.25rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.myLabel :invalid + span {
+  color: #723f5f;
+  font-size: 15px;
+}
+
+.myLabel :valid + span {
+  color: #723f5f;
+  font-size: 15px;
+}
+
+.myLabel svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: #723f5f;
+  margin-top: -0.25em;
+  margin-right: 0.25em;
+}
+
+.inputfile + label svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  margin-top: -0.25em;
+  margin-right: 0.25em;
+}
+
+.add-rec {
+  background: #723f5f;
+}
+.fa-cloud-upload {
+  padding-right: 7px;
+}
+
+.btn-add-recipe{
+  float: left;
+  color: white;
+  padding: 1.25rem 1.95rem;
+  font-size: 1.75rem;
+  outline: none;
+  margin-top: 30px;
+  clear: both;
+  margin-left: 30px;
+}
+
+.custom-file-upload span {
+  font-size: 0.7em;
+}
+
+.img_name{
+  width: 200px;
+  min-height: 2em;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+strong {
+  height: 100%;
+  color: #f1e5e6;
+  background-color: #d3394c;
+  display: inline-block;
+  padding: 12px;
+}
+
+strong:hover {
+  background-color: #722040;
+}
+
+.btn-add-recipe:hover {
+  border: 3px solid #723f5f;
+  background: white;
+  color:#723f5f;
+}

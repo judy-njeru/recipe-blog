@@ -1,0 +1,2 @@
+export const CREATE_PROFILE = "./CREATE_PROFILE";
+export const FETCH_RECIPE_DATA = "./FETCH_RECIPE_DATA";

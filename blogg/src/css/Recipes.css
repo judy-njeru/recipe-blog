@@ -1,0 +1,36 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+  font-size: 20px;
+
+}
+h4 {
+  font-family: 'Droid Sans', sans;
+  font-size: 15px;
+
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.p_head .panel-heading {
+  background-color: #723f5f;
+  color:#fff;
+}
+
+.rec-col {
+     width: 100%;
+}
+
+.contd {
+  display: inline-block;
+}
+
+.upl-img {
+  max-width: 300px;
+}
